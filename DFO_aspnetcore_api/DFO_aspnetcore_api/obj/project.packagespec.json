@@ -31,9 +31,21 @@
   "frameworks": {
     "netcoreapp5.0": {
       "dependencies": {
+        "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+          "target": "Package",
+          "version": "[8.1.1, )"
+        },
+        "MediatR.Extensions.Microsoft.DependencyInjection": {
+          "target": "Package",
+          "version": "[9.0.0, )"
+        },
         "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
           "target": "Package",
           "version": "[5.0.4, )"
+        },
+        "Microsoft.AspNetCore.Mvc.Versioning": {
+          "target": "Package",
+          "version": "[5.0.0, )"
         },
         "Microsoft.EntityFrameworkCore": {
           "target": "Package",

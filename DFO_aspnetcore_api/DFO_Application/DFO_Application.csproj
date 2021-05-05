@@ -7,7 +7,12 @@
     <ItemGroup>
       <PackageReference Include="AutoMapper" Version="10.1.1" />
       <PackageReference Include="FluentValidation" Version="10.1.0" />
+      <PackageReference Include="MediatR" Version="9.0.0" />
       <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DFO_Domain\DFO_Domain.csproj" />
     </ItemGroup>
 
 </Project>

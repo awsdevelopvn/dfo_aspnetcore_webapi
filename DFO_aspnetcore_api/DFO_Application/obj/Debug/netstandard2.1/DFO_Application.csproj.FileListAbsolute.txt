@@ -7,3 +7,6 @@ C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Applic
 C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Application\obj\Debug\netstandard2.1\DFO_Application.csproj.CoreCompileInputs.cache
 C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Application\obj\Debug\netstandard2.1\DFO_Application.dll
 C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Application\obj\Debug\netstandard2.1\DFO_Application.pdb
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Application\bin\Debug\netstandard2.1\DFO_Domain.dll
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Application\bin\Debug\netstandard2.1\DFO_Domain.pdb
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Application\obj\Debug\netstandard2.1\DFO_Application.csproj.CopyComplete

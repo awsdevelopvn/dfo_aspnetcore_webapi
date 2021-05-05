@@ -14,18 +14,35 @@
             <e p="UserInfo.cs" t="Include" />
           </e>
         </e>
-        <e p="Enums" t="Include">
-          <e p="Roles.cs" t="Include" />
-        </e>
         <e p="Exceptions" t="Include">
           <e p="ApiException.cs" t="Include" />
           <e p="ValidationException.cs" t="Include" />
         </e>
+        <e p="Features" t="Include">
+          <e p="Users" t="Include">
+            <e p="Commands" t="Include">
+              <e p="CreateUserCommand.cs" t="Include" />
+              <e p="UpdateUserCommand.cs" t="Include" />
+            </e>
+            <e p="Queries" t="Include">
+              <e p="GetAllUsersParameter.cs" t="Include" />
+              <e p="GetAllUsersQuery.cs" t="Include" />
+              <e p="GetUserByIdQuery.cs" t="Include" />
+              <e p="UserViewModel.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Interfaces" t="Include">
+          <e p="IAuthenticatedUserService.cs" t="Include" />
+          <e p="IDateTimeService.cs" t="Include" />
+          <e p="IGenericRepositoryAsync.cs" t="Include" />
           <e p="IUserService.cs" t="Include" />
         </e>
         <e p="Loggings" t="Include">
           <e p="IAppLogger.cs" t="Include" />
+        </e>
+        <e p="Mappings" t="Include">
+          <e p="GeneralProfile.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -34,7 +51,11 @@
             </e>
           </e>
         </e>
+        <e p="Parameters" t="Include">
+          <e p="RequestParameter.cs" t="Include" />
+        </e>
         <e p="Wrappers" t="Include">
+          <e p="PagedResponse.cs" t="Include" />
           <e p="ResponseBase.cs" t="Include" />
         </e>
       </e>
@@ -43,18 +64,18 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
-          <e p="UserController.cs" t="Include" />
-          <e p="WeatherForecastController.cs" t="Include" />
+          <e p="BaseApiController.cs" t="Include" />
+          <e p="v1" t="Include">
+            <e p="UserController.cs" t="Include" />
+          </e>
         </e>
         <e p="DFO_aspnetcore_api.csproj" t="IncludeRecursive" />
         <e p="Extensions" t="Include">
           <e p="AppExtensions.cs" t="Include" />
         </e>
-        <e p="Filters" t="Include" />
         <e p="Middlewares" t="Include">
           <e p="ErrorHandlerMiddleware.cs" t="Include" />
         </e>
-        <e p="Models" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net5.0" t="Include">
@@ -66,10 +87,30 @@
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
+        <e p="Services" t="Include">
+          <e p="AuthenticatedUserService.cs" t="Include" />
+        </e>
         <e p="Startup.cs" t="Include" />
         <e p="WeatherForecast.cs" t="Include" />
       </e>
       <e p="DFO_aspnetcore_api.sln" t="IncludeFlat" />
+      <e p="DFO_Domain" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Common" t="Include">
+          <e p="AuditableBaseEntity.cs" t="Include" />
+        </e>
+        <e p="DFO_Domain.csproj" t="IncludeRecursive" />
+        <e p="Entities" t="Include">
+          <e p="DFOUser.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="DFO_Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="DFO_Infrastructure" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="DFO_Infrastructure.csproj" t="IncludeRecursive" />
@@ -94,6 +135,19 @@
               <e p="DFO_Infrastructure.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="Persistence" t="Include">
+          <e p="Contexts" t="Include">
+            <e p="ApplicationDbContext.cs" t="Include" />
+          </e>
+          <e p="ServiceRegistration.cs" t="Include" />
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="GenericRepositoryAsync.cs" t="Include" />
+        </e>
+        <e p="Shared" t="Include">
+          <e p="DateTimeService.cs" t="Include" />
+          <e p="ServiceRegistration.cs" t="Include" />
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />

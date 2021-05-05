@@ -15,7 +15,11 @@
     },
     "frameworks": {
       "netstandard2.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "C:\\Users\\emai2\\Documents\\self-study\\dotnetcore\\api\\DFO_aspnetcore_api\\DFO_Domain\\DFO_Domain.csproj": {
+            "projectPath": "C:\\Users\\emai2\\Documents\\self-study\\dotnetcore\\api\\DFO_aspnetcore_api\\DFO_Domain\\DFO_Domain.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -34,6 +38,10 @@
         "FluentValidation": {
           "target": "Package",
           "version": "[10.1.0, )"
+        },
+        "MediatR": {
+          "target": "Package",
+          "version": "[9.0.0, )"
         },
         "System.ComponentModel.Annotations": {
           "target": "Package",

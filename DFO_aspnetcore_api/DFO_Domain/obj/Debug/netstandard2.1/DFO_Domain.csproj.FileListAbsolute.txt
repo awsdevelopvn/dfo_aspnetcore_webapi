@@ -1,0 +1,9 @@
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Domain\bin\Debug\netstandard2.1\DFO_Domain.deps.json
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Domain\bin\Debug\netstandard2.1\DFO_Domain.dll
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Domain\bin\Debug\netstandard2.1\DFO_Domain.pdb
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Domain\obj\Debug\netstandard2.1\DFO_Domain.csprojAssemblyReference.cache
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Domain\obj\Debug\netstandard2.1\DFO_Domain.AssemblyInfoInputs.cache
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Domain\obj\Debug\netstandard2.1\DFO_Domain.AssemblyInfo.cs
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Domain\obj\Debug\netstandard2.1\DFO_Domain.csproj.CoreCompileInputs.cache
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Domain\obj\Debug\netstandard2.1\DFO_Domain.dll
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Domain\obj\Debug\netstandard2.1\DFO_Domain.pdb

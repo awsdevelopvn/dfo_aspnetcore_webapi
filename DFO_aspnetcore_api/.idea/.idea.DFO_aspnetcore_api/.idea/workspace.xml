@@ -23,23 +23,91 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="552d8f03-7388-41b6-b020-bf118d279240" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DFO_Application/DTOs/User/RegisterUserRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFO_Application/DTOs/User/UpdateUserRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFO_Application/DTOs/User/UserInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFO_Application/Enums/Roles.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFO_Application/Exceptions/ApiException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFO_Application/Exceptions/ValidationException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFO_Application/Interfaces/IUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFO_Application/Loggings/IAppLogger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFO_Application/Wrappers/ResponseBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFO_Infrastructure/Identity/Contexts/IdentityContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFO_Infrastructure/Identity/Models/ApplicationUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFO_Infrastructure/Identity/ServiceExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFO_Infrastructure/Identity/Services/UserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFO_Infrastructure/Loggings/LoggerAdapter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/Controllers/UserController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/Extensions/AppExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/Middlewares/ErrorHandlerMiddleware.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_Application/Features/Users/Commands/CreateUserCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_Application/Features/Users/Commands/UpdateUserCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_Application/Features/Users/Queries/GetAllUsersParameter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_Application/Features/Users/Queries/GetAllUsersQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_Application/Features/Users/Queries/GetUserByIdQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_Application/Features/Users/Queries/UserViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_Application/Interfaces/IAuthenticatedUserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_Application/Interfaces/IDateTimeService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_Application/Interfaces/IGenericRepositoryAsync.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_Application/Mappings/GeneralProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_Application/Parameters/RequestParameter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_Application/Wrappers/PagedResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_Domain/Common/AuditableBaseEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_Domain/Entities/DFOUser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_Infrastructure/Persistence/Contexts/ApplicationDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_Infrastructure/Persistence/ServiceRegistration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_Infrastructure/Repositories/GenericRepositoryAsync.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_Infrastructure/Shared/DateTimeService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_Infrastructure/Shared/ServiceRegistration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/Controllers/BaseApiController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/Controllers/v1/UserController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/Services/AuthenticatedUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DFO_aspnetcore_api/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DFO_aspnetcore_api/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DFO_aspnetcore_api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DFO_aspnetcore_api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Application/DFO_Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Application/DFO_Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Application/bin/Debug/netstandard2.1/DFO_Application.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Application/bin/Debug/netstandard2.1/DFO_Application.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Application/bin/Debug/netstandard2.1/DFO_Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Application/bin/Debug/netstandard2.1/DFO_Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Application/bin/Debug/netstandard2.1/DFO_Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Application/bin/Debug/netstandard2.1/DFO_Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Application/obj/DFO_Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Application/obj/DFO_Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Application/obj/Debug/netstandard2.1/DFO_Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Application/obj/Debug/netstandard2.1/DFO_Application.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Application/obj/Debug/netstandard2.1/DFO_Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Application/obj/Debug/netstandard2.1/DFO_Application.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Application/obj/Debug/netstandard2.1/DFO_Application.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Application/obj/Debug/netstandard2.1/DFO_Application.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Application/obj/Debug/netstandard2.1/DFO_Application.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Application/obj/Debug/netstandard2.1/DFO_Application.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Application/obj/Debug/netstandard2.1/DFO_Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Application/obj/Debug/netstandard2.1/DFO_Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Application/obj/Debug/netstandard2.1/DFO_Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Application/obj/Debug/netstandard2.1/DFO_Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Application/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Infrastructure/bin/Debug/net5.0/DFO_Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Infrastructure/bin/Debug/net5.0/DFO_Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Infrastructure/bin/Debug/net5.0/DFO_Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Infrastructure/bin/Debug/net5.0/DFO_Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Infrastructure/bin/Debug/net5.0/DFO_Infrastructure.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Infrastructure/bin/Debug/net5.0/DFO_Infrastructure.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Infrastructure/bin/Debug/net5.0/DFO_Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Infrastructure/bin/Debug/net5.0/DFO_Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Infrastructure/bin/Debug/net5.0/DFO_Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Infrastructure/bin/Debug/net5.0/DFO_Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Infrastructure/bin/Debug/net5.0/ref/DFO_Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Infrastructure/bin/Debug/net5.0/ref/DFO_Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Infrastructure/obj/DFO_Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Infrastructure/obj/DFO_Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Infrastructure/obj/Debug/net5.0/DFO_Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Infrastructure/obj/Debug/net5.0/DFO_Infrastructure.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Infrastructure/obj/Debug/net5.0/DFO_Infrastructure.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Infrastructure/obj/Debug/net5.0/DFO_Infrastructure.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Infrastructure/obj/Debug/net5.0/DFO_Infrastructure.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Infrastructure/obj/Debug/net5.0/DFO_Infrastructure.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Infrastructure/obj/Debug/net5.0/DFO_Infrastructure.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Infrastructure/obj/Debug/net5.0/DFO_Infrastructure.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Infrastructure/obj/Debug/net5.0/DFO_Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Infrastructure/obj/Debug/net5.0/DFO_Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Infrastructure/obj/Debug/net5.0/DFO_Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Infrastructure/obj/Debug/net5.0/DFO_Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Infrastructure/obj/Debug/net5.0/ref/DFO_Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Infrastructure/obj/Debug/net5.0/ref/DFO_Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/Controllers/UserController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/DFO_aspnetcore_api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/DFO_aspnetcore_api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/Extensions/AppExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/Extensions/AppExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/bin/Debug/net5.0/DFO_Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/bin/Debug/net5.0/DFO_Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/bin/Debug/net5.0/DFO_Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/bin/Debug/net5.0/DFO_Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/bin/Debug/net5.0/DFO_Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/bin/Debug/net5.0/DFO_Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/bin/Debug/net5.0/DFO_Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/bin/Debug/net5.0/DFO_Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/bin/Debug/net5.0/DFO_aspnetcore_api.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/bin/Debug/net5.0/DFO_aspnetcore_api.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/bin/Debug/net5.0/DFO_aspnetcore_api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/bin/Debug/net5.0/DFO_aspnetcore_api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/bin/Debug/net5.0/DFO_aspnetcore_api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/bin/Debug/net5.0/DFO_aspnetcore_api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/bin/Debug/net5.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/bin/Debug/net5.0/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/bin/Debug/net5.0/ref/DFO_aspnetcore_api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/bin/Debug/net5.0/ref/DFO_aspnetcore_api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/DFO_aspnetcore_api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/DFO_aspnetcore_api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/Debug/net5.0/DFO_aspnetcore_api.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/Debug/net5.0/DFO_aspnetcore_api.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/Debug/net5.0/DFO_aspnetcore_api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/Debug/net5.0/DFO_aspnetcore_api.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/Debug/net5.0/DFO_aspnetcore_api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/Debug/net5.0/DFO_aspnetcore_api.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/Debug/net5.0/DFO_aspnetcore_api.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/Debug/net5.0/DFO_aspnetcore_api.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/Debug/net5.0/DFO_aspnetcore_api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/Debug/net5.0/DFO_aspnetcore_api.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/Debug/net5.0/DFO_aspnetcore_api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/Debug/net5.0/DFO_aspnetcore_api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/Debug/net5.0/DFO_aspnetcore_api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/Debug/net5.0/DFO_aspnetcore_api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/Debug/net5.0/ref/DFO_aspnetcore_api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/Debug/net5.0/ref/DFO_aspnetcore_api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DFO_aspnetcore_api/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,52 +122,62 @@
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/CE575B69-3781-4B45-B3D1-43925111B499/C/IdentityResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F758DD2F-9E4C-41A0-B7A1-63138D66F75D/6b/f7ccc0bf/ServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3834795B-F41B-4E62-8161-509ECA0F5822/c8/84027969/RequestExceptionProcessorBehavior`2.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Models/ApplicationUser.cs" />
-        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Models/AppIdentityDbContext.cs" />
-        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Infrastructure/AppIdentityDbContext.cs" />
-        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Infrastructure/ServiceRegistration.cs" />
-        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Infrastructure/ApplicationUser.cs" />
-        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Models/RegisterRequest.cs" />
-        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Models/ApiException.cs" />
-        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Models/BaseResponse.cs" />
-        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Models/ResponseBase.cs" />
-        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Models/UpdateUserRequest.cs" />
-        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Models/RegisterUserRequest.cs" />
-        <option value="$PROJECT_DIR$/DFO_Infrastructure/Class1.cs" />
-        <option value="$PROJECT_DIR$/DFO_Infrastructure/Identity/ApplicationUser.cs" />
-        <option value="$PROJECT_DIR$/DFO_Infrastructure/Persistence/ServiceRegistration.cs" />
-        <option value="$PROJECT_DIR$/DFO_Infrastructure/Persistence/AppIdentityDbContext.cs" />
-        <option value="$PROJECT_DIR$/DFO_Infrastructure/Identity/AppIdentityDbContext.cs" />
-        <option value="$PROJECT_DIR$/DFO_Infrastructure/Identity/IdentityDbContext.cs" />
-        <option value="$PROJECT_DIR$/DFO_Infrastructure/Identity/Contexts/IdentityDbContext.cs" />
         <option value="$PROJECT_DIR$/DFO_Application/Class1.cs" />
         <option value="$PROJECT_DIR$/DFO_Infrastructure/Identity/Services/AccountService.cs" />
         <option value="$PROJECT_DIR$/DFO_Application/Exceptions/ApiException.cs" />
         <option value="$PROJECT_DIR$/DFO_Application/Exceptions/ValidationException.cs" />
         <option value="$PROJECT_DIR$/DFO_Application/Wrappers/ResponseBase.cs" />
         <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Middlewares/ErrorHandlerMiddleware.cs" />
-        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Extensions/AppExtensions.cs" />
-        <option value="$PROJECT_DIR$/DFO_Application/DTOs/User/UpdateUserRequest.cs" />
         <option value="$PROJECT_DIR$/DFO_Application/Interfaces/IAccountService.cs" />
         <option value="$PROJECT_DIR$/DFO_Application/Enums/Roles.cs" />
-        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/appsettings.Development.json" />
         <option value="$PROJECT_DIR$/DFO_Application/Interfaces/IUserService.cs" />
         <option value="$PROJECT_DIR$/DFO_aspnetcore_api/appsettings.json" />
         <option value="$PROJECT_DIR$/DFO_Application/Loggings/IAppLogger.cs" />
         <option value="$PROJECT_DIR$/DFO_Infrastructure/Loggings/LoggerAdapter.cs" />
-        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Startup.cs" />
         <option value="$PROJECT_DIR$/DFO_Application/DTOs/User/RegisterUserRequest.cs" />
         <option value="$PROJECT_DIR$/DFO_Application/DTOs/User/UserInfo.cs" />
         <option value="$PROJECT_DIR$/DFO_Infrastructure/Identity/Models/ApplicationUser.cs" />
         <option value="$PROJECT_DIR$/DFO_Infrastructure/Identity/Contexts/IdentityContext.cs" />
         <option value="$PROJECT_DIR$/DFO_Infrastructure/Identity/ServiceExtensions.cs" />
-        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Controllers/UserController.cs" />
         <option value="$PROJECT_DIR$/DFO_Infrastructure/Identity/Services/UserService.cs" />
+        <option value="$PROJECT_DIR$/DFO_Application/DTOs/User/UpdateUserRequest.cs" />
+        <option value="$PROJECT_DIR$/DFO_Application/Mappings/GenericProfile.cs" />
+        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/appsettings.Development.json" />
+        <option value="$PROJECT_DIR$/DFO_Application/Interfaces/IGenericRepositoryAsync.cs" />
+        <option value="$PROJECT_DIR$/DFO_Infrastructure/Persistence/Models/DFOUser.cs" />
+        <option value="$PROJECT_DIR$/DFO_Domain/Class1.cs" />
+        <option value="$PROJECT_DIR$/DFO_Domain/Common/AuditableBaseEntity.cs" />
+        <option value="$PROJECT_DIR$/DFO_Infrastructure/Repositories/GenericRepositoryAsync.cs" />
+        <option value="$PROJECT_DIR$/DFO_Application/Interfaces/Repositories/IUserRepositoryAsync.cs" />
+        <option value="$PROJECT_DIR$/DFO_Application/Wrappers/PagedResponse.cs" />
+        <option value="$PROJECT_DIR$/DFO_Application/Features/Users/Queries/GetAllUsersResponse.cs" />
+        <option value="$PROJECT_DIR$/DFO_Application/Features/Users/Queries/GetAllUsersViewModel.cs" />
+        <option value="$PROJECT_DIR$/DFO_Application/Parameters/RequestParameter.cs" />
+        <option value="$PROJECT_DIR$/DFO_Application/Features/Users/Queries/GetAllUsersParameter.cs" />
+        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Controllers/UserController.cs" />
+        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Controllers/v1/UserController.cs" />
+        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Controllers/BaseApiController.cs" />
+        <option value="$PROJECT_DIR$/DFO_Application/Features/Users/Queries/GetAllUsersQuery.cs" />
+        <option value="$PROJECT_DIR$/DFO_Infrastructure/Persistence/ServiceRegistration.cs" />
+        <option value="$PROJECT_DIR$/DFO_Application/Mappings/GeneralProfile.cs" />
+        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Extensions/AppExtensions.cs" />
+        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Services/AuthenticatedUserService.cs" />
+        <option value="$PROJECT_DIR$/DFO_Application/Interfaces/IAuthenticatedUserService.cs" />
+        <option value="$PROJECT_DIR$/DFO_Application/Interfaces/IDateTimeService.cs" />
+        <option value="$PROJECT_DIR$/DFO_Infrastructure/Shared/DateTimeService.cs" />
+        <option value="$PROJECT_DIR$/DFO_Infrastructure/Shared/ServiceRegistration.cs" />
+        <option value="$PROJECT_DIR$/DFO_aspnetcore_api/Startup.cs" />
+        <option value="$PROJECT_DIR$/DFO_Infrastructure/Persistence/Contexts/ApplicationDbContext.cs" />
+        <option value="$PROJECT_DIR$/DFO_Application/Features/Users/Commands/CreateUserCommand.cs" />
+        <option value="$PROJECT_DIR$/DFO_Domain/Entities/DFOUser.cs" />
+        <option value="$PROJECT_DIR$/DFO_Application/Features/Users/Commands/UpdateUserCommand.cs" />
+        <option value="$PROJECT_DIR$/DFO_Application/Features/Users/Queries/GetUserByIdQuery.cs" />
+        <option value="$PROJECT_DIR$/DFO_Application/Features/Users/Queries/UserViewModel.cs" />
       </list>
     </option>
   </component>
@@ -161,7 +239,7 @@
       <workItem from="1620124034491" duration="281000" />
       <workItem from="1620124344338" duration="228000" />
       <workItem from="1620124605391" duration="2807000" />
-      <workItem from="1620127446436" duration="11883000" />
+      <workItem from="1620127446436" duration="27136000" />
     </task>
     <servers />
   </component>
@@ -186,104 +264,138 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="411" height="441" key="DebuggerActiveHint" timestamp="1620180400044">
+    <state width="411" height="441" key="DebuggerActiveHint" timestamp="1620207358452">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="411" height="441" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1620180400044" />
-    <state width="1237" height="130" key="GridCell.Tab.0.bottom" timestamp="1620182370741">
+    <state width="411" height="441" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1620207358452" />
+    <state width="1237" height="152" key="GridCell.Tab.0.bottom" timestamp="1620208167504">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620182370741" />
-    <state width="1237" height="130" key="GridCell.Tab.0.center" timestamp="1620182370741">
+    <state width="1237" height="152" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620208167504" />
+    <state width="1237" height="152" key="GridCell.Tab.0.center" timestamp="1620208167503">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1620182370741" />
-    <state width="1237" height="130" key="GridCell.Tab.0.left" timestamp="1620182370740">
+    <state width="1237" height="152" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1620208167503" />
+    <state width="1237" height="152" key="GridCell.Tab.0.left" timestamp="1620208167503">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1620182370740" />
-    <state width="1237" height="130" key="GridCell.Tab.0.right" timestamp="1620182370741">
+    <state width="1237" height="152" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1620208167503" />
+    <state width="1237" height="152" key="GridCell.Tab.0.right" timestamp="1620208167504">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1620182370741" />
-    <state width="1237" height="130" key="GridCell.Tab.1.bottom" timestamp="1620182370367">
+    <state width="1237" height="152" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1620208167504" />
+    <state width="1237" height="152" key="GridCell.Tab.1.bottom" timestamp="1620208167263">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620182370367" />
-    <state width="1237" height="130" key="GridCell.Tab.1.center" timestamp="1620182370367">
+    <state width="1237" height="152" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620208167263" />
+    <state width="1237" height="152" key="GridCell.Tab.1.center" timestamp="1620208167262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1620182370367" />
-    <state width="1237" height="130" key="GridCell.Tab.1.left" timestamp="1620182370367">
+    <state width="1237" height="152" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1620208167262" />
+    <state width="1237" height="152" key="GridCell.Tab.1.left" timestamp="1620208167262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1620182370367" />
-    <state width="1237" height="130" key="GridCell.Tab.1.right" timestamp="1620182370367">
+    <state width="1237" height="152" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1620208167262" />
+    <state width="1237" height="152" key="GridCell.Tab.1.right" timestamp="1620208167263">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1620182370367" />
-    <state width="1237" height="130" key="GridCell.Tab.2.bottom" timestamp="1620182370367">
+    <state width="1237" height="152" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1620208167263" />
+    <state width="1237" height="152" key="GridCell.Tab.2.bottom" timestamp="1620208167264">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620182370367" />
-    <state width="1237" height="130" key="GridCell.Tab.2.center" timestamp="1620182370367">
+    <state width="1237" height="152" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620208167264" />
+    <state width="1237" height="152" key="GridCell.Tab.2.center" timestamp="1620208167264">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1620182370367" />
-    <state width="1237" height="130" key="GridCell.Tab.2.left" timestamp="1620182370367">
+    <state width="1237" height="152" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1620208167264" />
+    <state width="1237" height="152" key="GridCell.Tab.2.left" timestamp="1620208167263">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1620182370367" />
-    <state width="1237" height="130" key="GridCell.Tab.2.right" timestamp="1620182370367">
+    <state width="1237" height="152" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1620208167263" />
+    <state width="1237" height="152" key="GridCell.Tab.2.right" timestamp="1620208167264">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1620182370367" />
-    <state width="1237" height="130" key="GridCell.Tab.3.bottom" timestamp="1620182370367">
+    <state width="1237" height="152" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1620208167264" />
+    <state width="1237" height="152" key="GridCell.Tab.3.bottom" timestamp="1620208167264">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620182370367" />
-    <state width="1237" height="130" key="GridCell.Tab.3.center" timestamp="1620182370367">
+    <state width="1237" height="152" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620208167264" />
+    <state width="1237" height="152" key="GridCell.Tab.3.center" timestamp="1620208167264">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1620182370367" />
-    <state width="1237" height="130" key="GridCell.Tab.3.left" timestamp="1620182370367">
+    <state width="1237" height="152" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1620208167264" />
+    <state width="1237" height="152" key="GridCell.Tab.3.left" timestamp="1620208167264">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1620182370367" />
-    <state width="1237" height="130" key="GridCell.Tab.3.right" timestamp="1620182370367">
+    <state width="1237" height="152" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1620208167264" />
+    <state width="1237" height="152" key="GridCell.Tab.3.right" timestamp="1620208167264">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1620182370367" />
-    <state width="1237" height="130" key="GridCell.Tab.4.bottom" timestamp="1620182370368">
+    <state width="1237" height="152" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1620208167264" />
+    <state width="1237" height="152" key="GridCell.Tab.4.bottom" timestamp="1620208167265">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.4.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620182370368" />
-    <state width="1237" height="130" key="GridCell.Tab.4.center" timestamp="1620182370367">
+    <state width="1237" height="152" key="GridCell.Tab.4.bottom/0.0.1280.680@0.0.1280.680" timestamp="1620208167265" />
+    <state width="1237" height="152" key="GridCell.Tab.4.center" timestamp="1620208167264">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.4.center/0.0.1280.680@0.0.1280.680" timestamp="1620182370367" />
-    <state width="1237" height="130" key="GridCell.Tab.4.left" timestamp="1620182370367">
+    <state width="1237" height="152" key="GridCell.Tab.4.center/0.0.1280.680@0.0.1280.680" timestamp="1620208167264" />
+    <state width="1237" height="152" key="GridCell.Tab.4.left" timestamp="1620208167264">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.4.left/0.0.1280.680@0.0.1280.680" timestamp="1620182370367" />
-    <state width="1237" height="130" key="GridCell.Tab.4.right" timestamp="1620182370367">
+    <state width="1237" height="152" key="GridCell.Tab.4.left/0.0.1280.680@0.0.1280.680" timestamp="1620208167264" />
+    <state width="1237" height="152" key="GridCell.Tab.4.right" timestamp="1620208167264">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="130" key="GridCell.Tab.4.right/0.0.1280.680@0.0.1280.680" timestamp="1620182370367" />
-    <state x="233" y="73" key="Rider.ProjectTemplateDialog.Size" timestamp="1620123944192">
+    <state width="1237" height="152" key="GridCell.Tab.4.right/0.0.1280.680@0.0.1280.680" timestamp="1620208167264" />
+    <state x="233" y="73" key="Rider.ProjectTemplateDialog.Size" timestamp="1620198936397">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Rider.ProjectTemplateDialog.Size/0.0.1280.680@0.0.1280.680" timestamp="1620123944192" />
-    <state x="391" y="31" key="RiderGenerateDialog" timestamp="1620141922951">
+    <state x="233" y="73" key="Rider.ProjectTemplateDialog.Size/0.0.1280.680@0.0.1280.680" timestamp="1620198936397" />
+    <state x="391" y="31" key="RiderGenerateDialog" timestamp="1620199259475">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="391" y="31" key="RiderGenerateDialog/0.0.1280.680@0.0.1280.680" timestamp="1620141922951" />
+    <state x="391" y="31" key="RiderGenerateDialog/0.0.1280.680@0.0.1280.680" timestamp="1620199259475" />
     <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1620138677646">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="647" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1620138677646" />
+    <state x="318" y="73" width="644" height="534" key="find.popup" timestamp="1620205228392">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="318" y="73" width="644" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1620205228392" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DFO_Infrastructure/Identity/ServiceExtensions.cs</url>
+          <line>22</line>
+          <properties documentPath="C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\Identity\ServiceExtensions.cs" initialLine="22">
+            <startOffsets>
+              <option value="818" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1074" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DFO_aspnetcore_api/Controllers/v1/UserController.cs</url>
+          <line>31</line>
+          <properties documentPath="C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_aspnetcore_api\Controllers\UserController.cs" initialLine="31">
+            <startOffsets>
+              <option value="914" />
+            </startOffsets>
+            <endOffsets>
+              <option value="954" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="LaunchSettings">
         <watch expression="_userManager.FindByEmailAsync(&quot;emai3@dxc.com&quot;).Result" language="C#" />

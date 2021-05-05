@@ -68,3 +68,10 @@ C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_aspnet
 C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_aspnetcore_api\bin\Debug\net5.0\DFO_Infrastructure.dll
 C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_aspnetcore_api\bin\Debug\net5.0\DFO_Infrastructure.pdb
 C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_aspnetcore_api\bin\Debug\net5.0\DFO_Application.pdb
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_aspnetcore_api\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_aspnetcore_api\bin\Debug\net5.0\MediatR.dll
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_aspnetcore_api\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_aspnetcore_api\bin\Debug\net5.0\DFO_Domain.dll
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_aspnetcore_api\bin\Debug\net5.0\DFO_Domain.pdb
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_aspnetcore_api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_aspnetcore_api\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

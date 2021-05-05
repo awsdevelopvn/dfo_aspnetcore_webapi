@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFO_Infrastructure", "DFO_I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFO_Application", "DFO_Application\DFO_Application.csproj", "{1ABCE97E-3CBC-4CB5-BE3F-44089A13D9F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFO_Domain", "DFO_Domain\DFO_Domain.csproj", "{DD5D4957-01A0-44E4-8511-618769809E80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{1ABCE97E-3CBC-4CB5-BE3F-44089A13D9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ABCE97E-3CBC-4CB5-BE3F-44089A13D9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ABCE97E-3CBC-4CB5-BE3F-44089A13D9F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD5D4957-01A0-44E4-8511-618769809E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5D4957-01A0-44E4-8511-618769809E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5D4957-01A0-44E4-8511-618769809E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5D4957-01A0-44E4-8511-618769809E80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

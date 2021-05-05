@@ -15,3 +15,5 @@ C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infras
 C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\obj\Debug\net5.0\DFO_Infrastructure.pdb
 C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.dll
 C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.xml
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\bin\Debug\net5.0\DFO_Domain.dll
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\bin\Debug\net5.0\DFO_Domain.pdb

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xRDfa51MM07h1Lwh1vtPNh/HkFaVAYRMMsyo7+PEK0bVAdEF3Po4CBafTsFoMHCAvPjyfkHuGk4/AGgf7Lrb7g==",
+  "dgSpecHash": "F6bWiIqCCFIjpNEALe6cVNXOhbKIpZ0ThOc5aCpYB0T3fX5p57pA/BDP2TSVCzzXsLWv8CjntvxxB++HA+fweg==",
   "success": true,
   "projectFilePath": "C:\\Users\\emai2\\Documents\\self-study\\dotnetcore\\api\\DFO_aspnetcore_api\\DFO_Application\\DFO_Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emai2\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\emai2\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
+    "C:\\Users\\emai2\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\emai2\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\emai2\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\emai2\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"

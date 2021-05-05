@@ -24,6 +24,15 @@
           "lib/net5.0/FluentValidation.dll": {}
         }
       },
+      "MediatR/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/5.0.4": {
         "type": "package",
         "compile": {
@@ -1601,7 +1610,9 @@
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "AutoMapper": "10.1.1",
+          "DFO_Domain": "1.0.0",
           "FluentValidation": "10.1.0",
+          "MediatR": "9.0.0",
           "System.ComponentModel.Annotations": "5.0.0"
         },
         "compile": {
@@ -1609,6 +1620,19 @@
         },
         "runtime": {
           "bin/placeholder/DFO_Application.dll": {}
+        }
+      },
+      "DFO_Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DFO_Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DFO_Domain.dll": {}
         }
       }
     }
@@ -1646,6 +1670,24 @@
         "lib/netstandard2.0/FluentValidation.xml",
         "lib/netstandard2.1/FluentValidation.dll",
         "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "MediatR/9.0.0": {
+      "sha512": "8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "type": "package",
+      "path": "mediatr/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.9.0.0.nupkg.sha512",
+        "mediatr.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/5.0.4": {
@@ -6027,6 +6069,11 @@
       "type": "project",
       "path": "../DFO_Application/DFO_Application.csproj",
       "msbuildProject": "../DFO_Application/DFO_Application.csproj"
+    },
+    "DFO_Domain/1.0.0": {
+      "type": "project",
+      "path": "../DFO_Domain/DFO_Domain.csproj",
+      "msbuildProject": "../DFO_Domain/DFO_Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {

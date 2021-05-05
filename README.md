@@ -14,49 +14,47 @@ There are 4 APIs
 
 **Create user**
 
-URL: https://localhost:5001/api/user
-
-Method: **POST**
-
-Content-Type: `applcation/json`
-
-Body example
-
-`{
-  "name": "lam mai",
-  "email": "emai2@dxc.com",
-  "userName": "lamemmv2",
-  "password": "-Tz<Uhx_y_3=sw*r",
-  "confirmPassword": "-Tz<Uhx_y_3=sw*r",
-  "age": 24,
-  "address": "243 Tan Hoa Dong"
-}`
+> URL: https://localhost:5001/api/v1/user
+>
+> Method: **POST**
+>
+> Content-Type: `applcation/json`
+>
+> Body example
+>
+> `{
+>   "name": "lam mai",
+>   "age": 24,
+>   "address": "243 Tan Hoa Dong"
+> }`
 
 **Get all users**
 
-URL: https://localhost:5001/api/user
-
-Method: **GET**
+> URL: https://localhost:5001/api/v1/user
+>
+> Method: **GET**
+>
 
 **Get a user**
 
-URL: https://localhost:5001/api/user/1
-
-Method: GET
+> URL: https://localhost:5001/api/v1/user/1
+>
+> Method: GET
+>
 
 **Update user**
 
-URL: https://localhost:5001/api/user/1
+URL: https://localhost:5001/api/v1/user/1
 
-Method: **PUT**
-
-Content-Type: applcation/json
-
-Body example
-
-`{
-  "id": 1,
-  "name": "lam mai1",
-  "age": 26,
-  "address": "243 Tan Hoa Dong"
-}`
+> Method: **PUT**
+>
+> Content-Type: applcation/json
+>
+> Body example
+>
+> `{
+>   "id": 1,
+>   "name": "lam mai1",
+>   "age": 26,
+>   "address": "243 Tan Hoa Dong"
+> }`
