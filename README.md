@@ -3,7 +3,12 @@ This is DFO code challenge
 
 -----------------------------------------------------
 
-To run the Web api, just open the solution, right click on DFO_aspnetcore_api, then click run or debug
+To run the Web api
+
+Step 1: Configure `UseInMemoryDatabase` to `true` in `appsettings.json` or `appsettings.Development.json`
+
+Step 2: Open the solution, right click on DFO_aspnetcore_api, then click run or debug
+
 There are 4 APIs 
 
 
@@ -36,6 +41,7 @@ Method: **GET**
 **Get a user**
 
 URL: https://localhost:5001/api/user/1
+
 Method: GET
 
 **Update user**
