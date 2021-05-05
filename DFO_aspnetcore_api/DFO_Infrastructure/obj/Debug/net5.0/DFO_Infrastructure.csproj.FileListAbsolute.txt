@@ -1,0 +1,17 @@
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\bin\Debug\net5.0\DFO_Infrastructure.deps.json
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\bin\Debug\net5.0\DFO_Infrastructure.dll
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\bin\Debug\net5.0\ref\DFO_Infrastructure.dll
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\bin\Debug\net5.0\DFO_Infrastructure.pdb
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\bin\Debug\net5.0\DFO_Application.dll
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\bin\Debug\net5.0\DFO_Application.pdb
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\obj\Debug\net5.0\DFO_Infrastructure.csprojAssemblyReference.cache
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\obj\Debug\net5.0\DFO_Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\obj\Debug\net5.0\DFO_Infrastructure.AssemblyInfoInputs.cache
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\obj\Debug\net5.0\DFO_Infrastructure.AssemblyInfo.cs
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\obj\Debug\net5.0\DFO_Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\obj\Debug\net5.0\DFO_Infrastructure.csproj.CopyComplete
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\obj\Debug\net5.0\DFO_Infrastructure.dll
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\obj\Debug\net5.0\ref\DFO_Infrastructure.dll
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\obj\Debug\net5.0\DFO_Infrastructure.pdb
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.dll
+C:\Users\emai2\Documents\self-study\dotnetcore\api\DFO_aspnetcore_api\DFO_Infrastructure\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.xml

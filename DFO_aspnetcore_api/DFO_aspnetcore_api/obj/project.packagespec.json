@@ -1,0 +1,76 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\emai2\\Documents\\self-study\\dotnetcore\\api\\DFO_aspnetcore_api\\DFO_aspnetcore_api\\DFO_aspnetcore_api.csproj",
+    "projectName": "DFO_aspnetcore_api",
+    "projectPath": "C:\\Users\\emai2\\Documents\\self-study\\dotnetcore\\api\\DFO_aspnetcore_api\\DFO_aspnetcore_api\\DFO_aspnetcore_api.csproj",
+    "outputPath": "C:\\Users\\emai2\\Documents\\self-study\\dotnetcore\\api\\DFO_aspnetcore_api\\DFO_aspnetcore_api\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "net50"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp5.0": {
+        "projectReferences": {
+          "C:\\Users\\emai2\\Documents\\self-study\\dotnetcore\\api\\DFO_aspnetcore_api\\DFO_Infrastructure\\DFO_Infrastructure.csproj": {
+            "projectPath": "C:\\Users\\emai2\\Documents\\self-study\\dotnetcore\\api\\DFO_aspnetcore_api\\DFO_Infrastructure\\DFO_Infrastructure.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp5.0": {
+      "dependencies": {
+        "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[5.0.4, )"
+        },
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[5.0.4, )"
+        },
+        "Microsoft.EntityFrameworkCore.InMemory": {
+          "target": "Package",
+          "version": "[5.0.4, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "[5.0.4, )"
+        },
+        "Swashbuckle.AspNetCore": {
+          "target": "Package",
+          "version": "[5.6.3, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+    }
+  }
+}

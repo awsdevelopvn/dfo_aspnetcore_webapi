@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kUTYbO9BPREF0bYfwiUhcpyYB1zB/otx6fkI3yhUu51evw5VF/Az83ldFqTNYMdabhx+BsQrzZEAZGJxQDILEg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\emai2\\Documents\\self-study\\dotnetcore\\api\\DFO_aspnetcore_api\\DFO_Application\\DFO_Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emai2\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
+    "C:\\Users\\emai2\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
